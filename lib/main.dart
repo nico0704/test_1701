@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:test_1701/screens/kurs_erstellen_screen.dart';
+import 'package:test_1701/screens/liste_kurse_screen.dart';
 
 import 'controller/kurs_controller.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: KursErstellenScreen(),
+      home: ListeKurseScreen(),
     );
   }
 }
